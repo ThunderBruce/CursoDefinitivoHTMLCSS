@@ -1,0 +1,13 @@
+.lateral-form {
+    width: 25%;
+
+}
+.content {
+    width: 70%;
+}
+.lateral-form {
+    padding-top: 2rem;
+}
+.formulario label {
+    width: 100%;
+}

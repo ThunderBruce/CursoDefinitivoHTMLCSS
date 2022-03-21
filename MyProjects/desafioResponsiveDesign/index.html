@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesos Generales</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width:800px)">
+</head>
+<body>
+    <header class="header">
+        <figure class="logo">
+            <img src="./images/logoAccesosGenerales.png" alt="Logo Empresa">
+            <strong>Accesos Generales</strong>
+        </figure>
+        <nav class="header-nav">
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Descubre</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="content">
+            <h2>Nuestros productos</h2>
+            <div class="figures">
+                <figure class="our-products-images">
+                    <img src="./images/elevador-hidraulico.jpg" alt="Elevador hidraulico">
+                    <figcaption>Elevador hidraulico</figcaption>
+                </figure>
+                <figure class="our-products-images box1">
+                    <img src="./images/aqua-fitness.jpg" alt="AquaFitness">
+                    <figcaption>AquaFitness</figcaption>
+                </figure>
+                <figure class="our-products-images box2">
+                    <img src="./images/silla-acuatica.jpg" alt="Silla acuatica">
+                    <figcaption>Silla Acuatica</figcaption>
+                </figure>
+                <figure class="our-products-images box3">
+                    <img src="./images/limpiador-superficies.jpg" alt="Limpiador superficies box4">
+                    <figcaption>Limpiador de superficies</figcaption>
+                </figure>
+            </div>
+            <p>Somos la empresa pionera en la adaptación de piscinas para la accesibilidad de personas con discapacidad, dedicada a la fabricación y comercialización de Ayudas Técnicas para personas con deficiencias físicas.</p>
+        </section>
+        <aside class="lateral-form">
+            <h3>Envianos tu mensaje</h3>
+            <form action="contact-form" class="formulario">
+                <label for="nombre">
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" placeholder="Tu nombre (requerido)" required/>
+                </label>
+                <label for="telefono">
+                    <input type="text" name="telefono" id="telefono" autocomplete="tel" placeholder="Telefono (requerido)" required/>
+                </label>
+                <label for="email">
+                    <input type="text" name="email" id="email" autocomplete="email" placeholder="Email (requerido)" required/>
+                </label>
+                <label for="mensaje">
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje" cols="22" rows="4"></textarea>
+                </label>
+                <input class="boton-submit" type="submit" name="enviar">
+            </form>
+        </aside>
+    </main>
+    <footer class="footer">
+        <p>Gracias por tu visita</p>
+    </footer>
+</body>
+</html>

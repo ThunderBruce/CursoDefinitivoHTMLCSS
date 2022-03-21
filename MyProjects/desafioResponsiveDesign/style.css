@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.header {
+    background-color:  steelblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: .1rem solid white;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: .1rem;
+}
+.logo img {
+    height: 5rem;
+}
+.logo strong {
+    margin-left: .5rem;
+    font-size: 2.5rem;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    margin: .5rem;
+}
+.menu li a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 100%;
+    padding: 2rem 1rem;
+    border: .1rem solid skyblue;
+    text-align: center;
+    
+}
+.content p {
+    text-align: center;
+    font-weight: bold;
+    margin: .7rem;
+}
+.figures {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-products-images {
+    width: 100%;
+    margin: 1rem auto 2.5rem;
+    
+}
+.our-products-images img {
+    max-width: 25rem;
+}
+.our-products-images figcaption {
+    margin: auto;
+}
+.lateral-form h3 {
+    margin-left: .7rem;
+}
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario label {
+    width: 100%;
+    margin: .7rem;
+}
+
+.formulario label input {
+    width: 100%;
+}
+
+.formulario label textarea {
+    width: 100%;
+}
+.boton-submit {
+    width: 30%;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid orange;
+    justify-content: center;
+    align-items: center;
+  }
+
+.footer p {
+    font-weight: 700;
+}

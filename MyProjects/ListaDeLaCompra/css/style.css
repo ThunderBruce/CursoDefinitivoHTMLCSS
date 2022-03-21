@@ -1,0 +1,56 @@
+body{
+    background-image: url("../images/tinified/AllPetLogo.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+ }
+ 
+ h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.pedido {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+ul li ol.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5px;
+}
+
+ul li ol figure {
+    display: table;
+}
+
+ul li ol figure img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+  }
+
+ul li ol figure figcaption.listaCompra{
+    font-size: 25px;
+    padding: 0px 25px;
+    display: table-caption;
+}
+
+ul li ol figure a {
+    display: inherit;
+}
+
+
+

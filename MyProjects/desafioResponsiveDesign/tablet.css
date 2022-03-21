@@ -1,0 +1,16 @@
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    margin-bottom: 0;
+}
+.our-products-images{
+    width: 50%;
+    min-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formulario label {
+    width: 45%;
+}
