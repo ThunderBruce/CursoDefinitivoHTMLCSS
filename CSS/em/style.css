@@ -1,0 +1,9 @@
+/* EM. Es el acronimo de elemento, lo que hace es tomar el tamaño genérico 
+que tiene el padre directo.*/
+.text-containter{
+    font-size: 1.5em;
+}
+
+.text-containter div {
+    font-size: 1.5em;
+}
